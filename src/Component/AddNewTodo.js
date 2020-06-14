@@ -54,7 +54,7 @@ export class AddTodo extends Component {
     
     </Col>
     {/*............................................End of Top Left Corner*/}
-    <Col xs={12} sm={12} lg={9} md={9}  style={{backgroundColor:'orange',height:"150px",float:"left",backgroundColor:"purple",borderBottomRightRadius:"200px"}}>
+    <Col xs={12} sm={12} lg={9} md={9}  style={{backgroundColor:'orange',height:"150px",float:"left",borderBottomRightRadius:"200px"}}>
     <center><p style={{paddingTop:"30px", paddingLeft:"50px", color:"white", fontFamily:"cursive", fontSize:"70px"}} >Add New Thing</p></center>
      </Col>
 {/*............................................End of Top Right Corner*/}

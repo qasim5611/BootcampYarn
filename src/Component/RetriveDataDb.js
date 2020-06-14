@@ -66,12 +66,12 @@ export class AddTodo extends Component {
               <Row>
                 {/*............................................Top Left Corner*/}
                 <Col xs={12} sm={12} lg={3} md={3} style={{ backgroundColor: '', height: "150px", float: "left", boxShadow: "1px 1px 3px black" }}>
-                  <img src={image1} style={{ borderRadius: "50%", marginTop: "20px", marginLeft: "20px" }} />
+                  <img src={image1} alt={'ghe'} style={{ borderRadius: "50%", marginTop: "20px", marginLeft: "20px" }} />
                   <p style={{ display: "inline", marginLeft: "20px", marginTop: "50px", fontFamily: "cursive", fontSize: "20px" }}>Qasim<br />Join Date: 10-03-2019 </p>
 
                 </Col>
                 {/*............................................End of Top Left Corner*/}
-                <Col xs={12} sm={12} lg={9} md={9} style={{ backgroundColor: 'orange', height: "150px", float: "left", backgroundColor: "purple", borderBottomRightRadius: "200px" }}>
+                <Col xs={12} sm={12} lg={9} md={9} style={{ backgroundColor: 'orange', height: "150px", float: "left",  borderBottomRightRadius: "200px" }}>
                   <center><p style={{ paddingTop: "30px", paddingLeft: "50px", color: "white", fontFamily: "cursive", fontSize: "70px" }} >Retrive from Db</p></center>
                 </Col>
                 {/*............................................End of Top Right Corner*/}

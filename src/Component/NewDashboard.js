@@ -68,7 +68,7 @@ export class AddTodo extends Component {
               <Row>
                 {/*............................................Top Left Corner*/}
                 <Col xs={12} sm={12} lg={3} md={3} style={{ backgroundColor: '', height: "150px", float: "left", boxShadow: "1px 1px 3px black" }}>
-                  <img src={image1} style={{ borderRadius: "50%", marginTop: "20px", marginLeft: "20px" }} />
+                  <img src={image1} alt={'jhjudc'} style={{ borderRadius: "50%", marginTop: "20px", marginLeft: "20px" }} />
                   <p style={{ display: "inline", marginLeft: "20px", marginTop: "50px", fontFamily: "cursive", fontSize: "20px" }}>Qasim<br />Join Date: 10-03-2019 </p>
 
                 </Col>

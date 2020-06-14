@@ -36,7 +36,7 @@ export class AddTodo extends Component {
       }
     
       submitt=()=>{
-        var prev=this.state.Employee;
+        // var prev=this.state.Employee;
         // prev.push({
         //   name:this.state.name,
         //   age:this.state.age,
