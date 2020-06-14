@@ -11,7 +11,7 @@ import InputLabel from '@material-ui/core/InputLabel';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export class signin extends Component {
     login=()=>{
@@ -21,7 +21,7 @@ export class signin extends Component {
         var e = document.getElementById("email").value;
         var p = document.getElementById("password").value;
 
-        var tt =localStorage.getItem("title");
+        // var tt =localStorage.getItem("title");
 var le =localStorage.getItem("email");
 var lp =localStorage.getItem("pass");
 

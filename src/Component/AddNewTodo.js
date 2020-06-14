@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 import image1 from './image/android-icon-72x72.png';
 import { Row, Col } from 'react-bootstrap';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+// import PropTypes from 'prop-types';
+// import { withStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
-import CssBaseline from '@material-ui/core/CssBaseline';
+// import CssBaseline from '@material-ui/core/CssBaseline';
 import FormControl from '@material-ui/core/FormControl';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
+// import FormControlLabel from '@material-ui/core/FormControlLabel';
+// import Checkbox from '@material-ui/core/Checkbox';
 import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
+// import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
+// import Paper from '@material-ui/core/Paper';
+// import Typography from '@material-ui/core/Typography';
 
 import {connect} from 'react-redux';  
 
@@ -49,7 +49,7 @@ export class AddTodo extends Component {
   <Row>
     {/*............................................Top Left Corner*/}
     <Col xs={12} sm={12} lg={3} md={3}  style={{backgroundColor:'gray',height:"150px",float:"left"}}>
-    <img src={image1} style={{borderRadius:"50%", marginTop:"20px", marginLeft:"20px"}} />
+    <img src={image1} alt={'jbj'} style={{borderRadius:"50%", marginTop:"20px", marginLeft:"20px"}} />
     <p style={{display:"inline",marginLeft:"20px", marginTop:"50px", fontFamily:"cursive", fontSize:"20px"}}>Qasim<br/>Join Date: 10-03-2019 </p>
     
     </Col>

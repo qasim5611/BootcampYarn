@@ -5,14 +5,14 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
-import FormControl from '@material-ui/core/FormControl';
-import Input from '@material-ui/core/Input';
-import InputLabel from '@material-ui/core/InputLabel';
+// import FormControl from '@material-ui/core/FormControl';
+// import Input from '@material-ui/core/Input';
+// import InputLabel from '@material-ui/core/InputLabel';
 import {connect} from 'react-redux';  
-import {sendToActionFORSAVE} from './../Redux/Action/action';
-import { withStyles, MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+// import {sendToActionFORSAVE} from './../Redux/Action/action';
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import green from '@material-ui/core/colors/green';
 import TextField from '@material-ui/core/TextField';
 import {filterForUpdate} from './../Redux/Action/action';
@@ -195,12 +195,12 @@ this.notifyA();
   <Row>
     {/*............................................Top Left Corner*/}
     <Col xs={12} sm={12} lg={3} md={3}  style={{backgroundColor:'gray',height:"150px",float:"left"}}>
-    <img src={image1} style={{borderRadius:"50%", marginTop:"20px", marginLeft:"20px"}} />
+    <img src={image1} alt={'dvf'} style={{borderRadius:"50%", marginTop:"20px", marginLeft:"20px"}} />
     <p style={{display:"inline",marginLeft:"20px", marginTop:"50px", fontFamily:"cursive", fontSize:"20px"}}>Qasim<br/>Join Date: 10-03-2019 </p>
     
     </Col>
     {/*............................................End of Top Left Corner*/}
-    <Col xs={12} sm={12} lg={9} md={9}  style={{backgroundColor:'orange',height:"150px",float:"left",backgroundColor:"purple",borderBottomRightRadius:"200px"}}>
+    <Col xs={12} sm={12} lg={9} md={9}  style={{backgroundColor:'orange',height:"150px",float:"left",borderBottomRightRadius:"200px"}}>
     <center><p style={{paddingTop:"30px", paddingLeft:"50px", color:"white", fontFamily:"cursive", fontSize:"70px"}} >Edit data</p></center>
      </Col>
 {/*............................................End of Top Right Corner*/}

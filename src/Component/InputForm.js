@@ -5,7 +5,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import FormControl from '@material-ui/core/FormControl';
 import Input from '@material-ui/core/Input';
@@ -87,12 +87,12 @@ export class AddTodo extends Component {
   <Row>
     {/*............................................Top Left Corner*/}
     <Col xs={12} sm={12} lg={3} md={3}  style={{backgroundColor:'gray',height:"150px",float:"left"}}>
-    <img src={image1} style={{borderRadius:"50%", marginTop:"20px", marginLeft:"20px"}} />
+    <img src={image1} alt={'ckn'} style={{borderRadius:"50%", marginTop:"20px", marginLeft:"20px"}} />
     <p style={{display:"inline",marginLeft:"20px", marginTop:"50px", fontFamily:"cursive", fontSize:"20px"}}>Qasim<br/>Join Date: 10-03-2019 </p>
     
     </Col>
     {/*............................................End of Top Left Corner*/}
-    <Col xs={12} sm={12} lg={9} md={9}  style={{backgroundColor:'orange',height:"150px",float:"left",backgroundColor:"purple",borderBottomRightRadius:"200px"}}>
+    <Col xs={12} sm={12} lg={9} md={9}  style={{backgroundColor:'orange',height:"150px",float:"left",borderBottomRightRadius:"200px"}}>
     <center><p style={{paddingTop:"30px", paddingLeft:"50px", color:"white", fontFamily:"cursive", fontSize:"70px"}} >Server Input Form</p></center>
      </Col>
 {/*............................................End of Top Right Corner*/}
@@ -130,7 +130,7 @@ export class AddTodo extends Component {
 
         <FormControl margin="normal" required="required" fullWidth style={{marginLeft:"50px"}}>
             <InputLabel htmlFor="email">Name</InputLabel>
-            <Input id="name" name="name" onChange={this.handle} required="required" autoComplete="email" autoFocus required style={{width:"300px"}} />
+            <Input id="name" name="name" onChange={this.handle} required="required" autoComplete="email" autoFocus  style={{width:"300px"}} />
         </FormControl>
         <FormControl margin="normal" required="required" fullWidth style={{marginLeft:"50px"}}>
             <InputLabel htmlFor="email">Age</InputLabel>

@@ -8,25 +8,25 @@ import signin from './Component/signin';
 import signup from  './Component/signup';
 import Edit from './Component/edit';
 import InputForm from './Component/InputForm';
-import { BrowserRouter, Route, Switch, Link} from 'react-router-dom';
+import { BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import NotFound from './Component/NotFound';
-import {PrivateRoute} from './Component/PrivateRoute';
+// import {PrivateRoute} from './Component/PrivateRoute';
 import {Provider} from 'react-redux';
 import store from './Redux/Store/store';
 import RetriveDataDb from './Component/RetriveDataDb';
 import UpdateForm from './Component/Update';
-import AddCounter from './Component/Addcounter';
-import Counter from './Component/counter';
+// import AddCounter from './Component/Addcounter';
+// import Counter from './Component/counter';
 import NewDashboard from './Component/NewDashboard';
 class App extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-        status:false
-    }
+//   constructor(props) {
+//     super(props)
+//     this.state = {
+//         status:false
+//     }
    
-}
+// }
 // componentWillMount() {
 
 //   this.props.sendToActionFORSAVE();
@@ -34,7 +34,7 @@ class App extends Component {
 
 //  }
   render() {
-    const {status} =this.state; 
+    // const {status} =this.state; 
     return (
       <Provider store = { store } >
       

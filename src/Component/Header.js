@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Button,Navbar,Nav,NavDropdown,Carousel,Form,FormControl} from 'react-bootstrap';
-import { BrowserRouter, Route, Switch,Link} from 'react-router-dom';
+import { Navbar,Nav,NavDropdown} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 export class Header extends Component {
   render() {
     

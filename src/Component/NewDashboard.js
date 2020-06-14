@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
 import image1 from './image/android-icon-72x72.png';
 import { Row, Col } from 'react-bootstrap';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+// import PropTypes from 'prop-types';
+// import { withStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Fab from '@material-ui/core/Fab';
 import Icon from '@material-ui/core/Icon';
 import IconButton from '@material-ui/core/IconButton';
 import DeleteIcon from '@material-ui/icons/Delete';
 import logo from './image/ic_border_color_white_18dp.png';
-import logo1 from './image/ic_border_color_white_18dp.png';
+// import logo1 from './image/ic_border_color_white_18dp.png';
 import { sendToActionFORRetrive } from './../Redux/Action/action';
 import { DeleteRecordFromStore } from './../Redux/Action/action';
 import { UpdateRecordFromDB } from './../Redux/Action/action';
 import { connect } from 'react-redux';
-import {updatePage} from './Update';
+// import {updatePage} from './Update';
 export class AddTodo extends Component {
   // state = {
   //   loading: true
@@ -73,7 +73,7 @@ export class AddTodo extends Component {
 
                 </Col>
                 {/*............................................End of Top Left Corner*/}
-                <Col xs={12} sm={12} lg={9} md={9} style={{ backgroundColor: 'orange', height: "150px", float: "left", backgroundColor: "purple", borderBottomRightRadius: "200px" }}>
+                <Col xs={12} sm={12} lg={9} md={9} style={{ backgroundColor: 'orange', height: "150px", float: "left",  borderBottomRightRadius: "200px" }}>
                   <center><p style={{ paddingTop: "30px", paddingLeft: "50px", color: "white", fontFamily: "cursive", fontSize: "70px" }} >Retrive from Db</p></center>
                 </Col>
                 {/*............................................End of Top Right Corner*/}
@@ -159,7 +159,7 @@ export class AddTodo extends Component {
             </body>
           </html>
 
-        }
+        
       </div>
     )
   }

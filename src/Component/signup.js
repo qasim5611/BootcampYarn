@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Row, Col } from 'react-bootstrap';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -71,7 +71,7 @@ check=()=>{
  
         // If password not entered 
         
-      if(password1 != password2) { 
+      if(password1 !== password2) { 
           leftdiv.innerHTML="\n OOPs Password did not match: Please try again...";
       }
       else if(password1 === ""){

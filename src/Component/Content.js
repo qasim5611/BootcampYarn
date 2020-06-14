@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { sendToActionFORRetrive } from '../Redux/Action/action';
+// import { sendToActionFORRetrive } from '../Redux/Action/action';
 
 export class Welcom extends Component {
 

@@ -32,12 +32,12 @@ function ReducerForDBdata(state = initialState, action) {
                 }
             }
         case 'AddUser':
-            var a = action.data
-            console.log('data at reducer', a);
+            var b = action.data
+            console.log('data at reducer', b);
            
             return {
 
-                DBdata: [...state.DBdata, a]
+                DBdata: [...state.DBdata, b]
                 
                 //StateForFirebase: [...state.StateForFirebase, a]    For Firebase
             }
@@ -48,9 +48,9 @@ function ReducerForDBdata(state = initialState, action) {
 
             {
                 console.log("ok dispatch is running");
-                var a = action.data
-                console.log('data at reducer after deletion', a._id);
-                let recordAgainstId = state.DBdata.filter((item) => item._id !== a._id);
+                var c = action.data
+                console.log('data at reducer after deletion', c._id);
+                let recordAgainstId = state.DBdata.filter((item) => item._id !== c._id);
 
                 // this.setState({DBdata:newArr});
                 return {
@@ -62,9 +62,9 @@ function ReducerForDBdata(state = initialState, action) {
             
             {
                 console.log("ok dispatch is running");
-                var a = action.data
-                console.log('data at reducer after deletion', a._id);
-                let newArr = state.DBdata.filter((item) => item._id !== a._id);
+                var d = action.data
+                console.log('data at reducer after deletion', d._id);
+                let newArr = state.DBdata.filter((item) => item._id !== d._id);
 
                 // this.setState({DBdata:newArr});
                 return {
@@ -102,10 +102,10 @@ function ReducerForDBdata(state = initialState, action) {
  
             {
                 console.log("ok dispatch is running");
-                var a = action.data
-                console.log('data at ', a);
+                var e = action.data
+                console.log('data at ', e);
                 console.log('state at ', state.DBdata );
-                let newArr = state.DBdata.filter((item) => item._id === a);
+                let newArr = state.DBdata.filter((item) => item._id === e);
 console.log('NEW ARRAY TO EDIT', newArr);
                 //this.setState({updatedobj:newArr});
                 return {
