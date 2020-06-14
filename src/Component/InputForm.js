@@ -1,4 +1,4 @@
-import React, { Component , useState } from 'react';
+import React, { Component } from 'react';
 import image1 from './image/android-icon-72x72.png';
 import { Row, Col } from 'react-bootstrap';
 import List from '@material-ui/core/List';
@@ -70,34 +70,6 @@ export class AddTodo extends Component {
     this.props.sendToActionFORSAVE(obj);   //action waly AddRecordToStore function ko call kia,
    // this.props.AddToFirebase(obj); if we want to store data on firebase regardless od node js/MongoDb
   this.props.history.push('/RetriveDataFromDb');
-}
-
-RevealText = ({text, maxLength}) =>{
-const [ hidden, setHidden ]= useState(true);
-
-if(text.length <= maxLength){
-return  <span>{text}</span>
-}
-
-
-
-
-
-return (
-  <span>
-    {hidden ? text.substr(0, maxLength) : text }
-
-    {hidden ? (
-      <a onClick={()=> setHidden(false)}>read more</a>
-    ) : (
-      <a onClick={()=> setHidden(true)}>read less</a>
-    ) }
-  </span>
-)
-
-
-
-
 }
   
   render() {
@@ -188,12 +160,7 @@ return (
             Save on DB
         </Button>
     </form>
-
-
-    <RevealText
-    maxLength={32}
-    text={`Focused, Hard work is the real ke to success. Keep your ey on th goal.and just keep taking the next step towards completing it.`}
-    />
+    {React.createElement('div', null, "helo world")}
     </Col>
 </Row>
   </body>
