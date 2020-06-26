@@ -40,7 +40,7 @@ export class Welcom extends Component {
 
 
 <Row>
- <Col>Transaction History</Col>
+ <Col>Transaction History..</Col>
  <hr/>
 </Row>
 
