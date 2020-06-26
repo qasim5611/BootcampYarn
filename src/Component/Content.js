@@ -20,9 +20,9 @@ export class Welcom extends Component {
     <Col xs={4} sm={4} lg={4} md={4}></Col>
 
 
-    <Col xs={12} sm={12} lg={4} md={4}  style={{backgroundColor:'',height:"150px",boxShadow:"1px 1px 3px black"}}>
+    <Col xs={12} sm={12} lg={4} md={4}  style={{boxShadow:"1px 1px 3px black"}}>
    
-   <center><p style={{ marginTop:"50px", fontFamily:"cursive", fontSize:"50px"}}>Expence Tracker By Qasim Tahir </p></center>
+   <center><p style={{ marginTop:"50px", fontFamily:"cursive", fontSize:"27px"}}>Expence Tracker App </p></center>
   <center> <p style={{ fontFamily:"cursive", fontSize:"20px"}}>Current Balance $0 </p></center>
 
 
