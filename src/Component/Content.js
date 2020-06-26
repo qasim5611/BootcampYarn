@@ -57,8 +57,17 @@ export class Welcom extends Component {
 {/*............................................End of Top Right Corner*/}
 </Row>
 <Row>
-  
-<TransactionHistory/>
+<ul>
+    <li className="plus" style={{borderRight: '10px green solid'}}>
+       <center> Project 1 income
+        <span>$ 1000</span> </center>
+    </li>
+    <li className="minus" style={{borderRight: '10px red solid'}}>
+        <center> Project 1 salaries
+        <span>$ 1000</span> </center>
+    </li>
+</ul>
+
 </Row>
 </Container>
 
