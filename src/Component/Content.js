@@ -56,9 +56,12 @@ export class Welcom extends Component {
    
 {/*............................................End of Top Right Corner*/}
 </Row>
+<Row>
+  
+<TransactionHistory/>
+</Row>
 </Container>
 
-<TransactionHistory/>
       </div>
     )
   }

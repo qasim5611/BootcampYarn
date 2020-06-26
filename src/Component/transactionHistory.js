@@ -6,12 +6,13 @@ class transactionHistory extends Component {
             <div>
                <h3>Transaction History</h3>
 <ul>
-    <li className="plus" style={{borderRight: '2px green solid'}}>
-        Project 1 income
+    <li className="plus" style={{borderRight: '10px green solid'}}>
+       <center> Project 1 income
+        <span>$ 1000</span> </center>
     </li>
-    <li className="minus" style={{borderRight: '2px red solid'}}>
-        Project 1 salaries
-        <span>$ 1000</span>
+    <li className="minus" style={{borderRight: '10px red solid'}}>
+        <center> Project 1 salaries
+        <span>$ 1000</span> </center>
     </li>
 </ul>
 

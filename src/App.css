@@ -10,7 +10,7 @@
  background-color: green;
 }
 
-.minus{
+.minus:hover{
   background-color: red;
 }
 @media (prefers-reduced-motion: no-preference) {
