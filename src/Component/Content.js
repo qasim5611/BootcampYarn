@@ -12,16 +12,35 @@ export class Welcom extends Component {
   render() {
     return (
       <div>
-        Welcom To Expense Tracker App By Qasim
-
+     
 
         <Container>
-        <Row>
+        <Row style={{backgroundColor: 'gray'}}>
     {/*............................................Top Left Corner*/}
-    <Col xs={12} sm={12} lg={12} md={12}  style={{backgroundColor:'',height:"150px",boxShadow:"1px 1px 3px black"}}>
+    <Col xs={12} sm={12} lg={6} md={6}  style={{backgroundColor:'',height:"150px",boxShadow:"1px 1px 3px black"}}>
    
-    <p style={{display:"inline",marginLeft:"20px", marginTop:"50px", fontFamily:"cursive", fontSize:"20px"}}>Qasim<br/>Join Date: 10-03-2019 </p>
-    
+    <center><p style={{ marginTop:"50px", fontFamily:"cursive", fontSize:"50px"}}>Expence Tracker By Qasim Tahir </p></center>
+   <center> <p style={{ fontFamily:"cursive", fontSize:"20px"}}>Current Balance $0 </p></center>
+
+
+<Row style={{backgroundColor: 'purple'}} >
+  <Col xs={6} sm={6} lg={6} md={6} style={{backgroundColor: 'white'}}>
+    INCOME<br/>
+    0.00
+  </Col>
+  <Col xs={6} sm={6} lg={6} md={6} style={{backgroundColor: 'white'}}>
+  Expence<br/>
+    0.00
+  </Col>
+</Row>
+
+
+
+<Row>
+  <Col>Transaction History</Col>
+  <hr/>
+</Row>
+
     </Col>
    
    
