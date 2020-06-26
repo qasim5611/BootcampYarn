@@ -26,7 +26,7 @@ export class Welcom extends Component {
   <center> <p style={{ fontFamily:"cursive", fontSize:"20px"}}>Current Balance $0 </p></center>
 
 
-<Row style={{backgroundColor: 'purple'}} >
+<Row style={{}} >
  <Col xs={6} sm={6} lg={6} md={6} style={{color: 'green'}}>
    INCOME<br/>
    0.00
@@ -42,8 +42,19 @@ export class Welcom extends Component {
 <Row>
  <Col>
  <center> <p style={{ fontFamily:"cursive", fontSize:"20px"}}>Transaction History </p></center>
- </Col>
  <hr/>
+ <ul>
+    <li className="plus" style={{borderRight: '10px green solid'}}>
+       <center> Project 1 income
+        <span>$ 1000</span> </center>
+    </li>
+    <li className="minus" style={{borderRight: '10px red solid'}}>
+        <center> Project 1 salaries
+        <span>$ 1000</span> </center>
+    </li>
+</ul>
+ </Col>
+
 </Row>
 
    </Col>
@@ -56,19 +67,7 @@ export class Welcom extends Component {
    
 {/*............................................End of Top Right Corner*/}
 </Row>
-<Row>
-<ul>
-    <li className="plus" style={{borderRight: '10px green solid'}}>
-       <center> Project 1 income
-        <span>$ 1000</span> </center>
-    </li>
-    <li className="minus" style={{borderRight: '10px red solid'}}>
-        <center> Project 1 salaries
-        <span>$ 1000</span> </center>
-    </li>
-</ul>
 
-</Row>
 </Container>
 
       </div>
