@@ -75,7 +75,7 @@ return (
           
         </Switch>
         
-        <Footer />
+        {/* <Footer /> */}
         {/* <AddCounter/>
         <Counter/> */}
       </div>
