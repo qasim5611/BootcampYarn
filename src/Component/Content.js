@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 // import { sendToActionFORRetrive } from '../Redux/Action/action';
 
 export class Welcom extends Component {
