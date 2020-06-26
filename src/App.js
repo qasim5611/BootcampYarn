@@ -19,6 +19,8 @@ import UpdateForm from './Component/Update';
 // import AddCounter from './Component/Addcounter';
 // import Counter from './Component/counter';
 import NewDashboard from './Component/NewDashboard';
+
+import './App.css';
 class App extends Component {
 //   constructor(props) {
 //     super(props)

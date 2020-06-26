@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Row, Col, Container } from 'react-bootstrap';
 // import { sendToActionFORRetrive } from '../Redux/Action/action';
-
+import TransactionHistory from './transactionHistory';
 export class Welcom extends Component {
 
   // componentWillMount() {
@@ -27,11 +27,11 @@ export class Welcom extends Component {
 
 
 <Row style={{backgroundColor: 'purple'}} >
- <Col xs={6} sm={6} lg={6} md={6} style={{backgroundColor: 'white'}}>
+ <Col xs={6} sm={6} lg={6} md={6} style={{color: 'green'}}>
    INCOME<br/>
    0.00
  </Col>
- <Col xs={6} sm={6} lg={6} md={6} style={{backgroundColor: 'white'}}>
+ <Col xs={6} sm={6} lg={6} md={6} style={{color: 'red'}}>
  Expence<br/>
    0.00
  </Col>
@@ -40,7 +40,9 @@ export class Welcom extends Component {
 
 
 <Row>
- <Col>Transaction History..</Col>
+ <Col>
+ <center> <p style={{ fontFamily:"cursive", fontSize:"20px"}}>Transaction History </p></center>
+ </Col>
  <hr/>
 </Row>
 
@@ -55,6 +57,8 @@ export class Welcom extends Component {
 {/*............................................End of Top Right Corner*/}
 </Row>
 </Container>
+
+<TransactionHistory/>
       </div>
     )
   }
