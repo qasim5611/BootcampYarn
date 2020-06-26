@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Row, Col, Container } from 'react-bootstrap';
 // import { sendToActionFORRetrive } from '../Redux/Action/action';
-import TransactionHistory from './transactionHistory';
+
 export class Welcom extends Component {
 
   // componentWillMount() {
