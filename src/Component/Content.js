@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Row, Col, Container } from 'react-bootstrap';
+import './../App.css';
 // import { sendToActionFORRetrive } from '../Redux/Action/action';
 
 export class Welcom extends Component {
@@ -43,12 +44,12 @@ export class Welcom extends Component {
  <Col>
  <center> <p style={{ fontFamily:"cursive", fontSize:"20px"}}>Transaction History </p></center>
  <hr/>
- <ul>
-    <li className="plus" style={{borderRight: '10px green solid'}}>
+ <ul className="list">
+    <li className="plus">
        <center> Project 1 income
         <span>$ 1000</span> </center>
     </li>
-    <li className="minus" style={{borderRight: '10px red solid'}}>
+    <li className="minus">
         <center> Project 1 salaries
         <span>$ 1000</span> </center>
     </li>
