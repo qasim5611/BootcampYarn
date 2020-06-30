@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Row, Col, Container } from 'react-bootstrap';
 import './../App.css';
 // import { sendToActionFORRetrive } from '../Redux/Action/action';
-
+import AddTransaction from './addTransaction';
 export class Welcom extends Component {
 
   // componentWillMount() {
@@ -48,10 +48,12 @@ export class Welcom extends Component {
     <li className="plus">
        <center> Project 1 income
         <span>$ 1000</span> </center>
+        <button className="delete-btn">X</button>
     </li>
     <li className="minus">
         <center> Project 1 salaries
         <span>$ 1000</span> </center>
+        <button className="delete-btn">X</button>
     </li>
 </ul>
  </Col>
@@ -70,7 +72,7 @@ export class Welcom extends Component {
 </Row>
 
 </Container>
-
+<AddTransaction/>
       </div>
     )
   }
