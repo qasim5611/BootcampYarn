@@ -59,7 +59,9 @@ export class Welcom extends Component {
  </Col>
 
 </Row>
-<AddTransaction/>
+<br/>
+<br/>
+<AddTransaction/>s
    </Col>
     <Col xs={4} sm={4} lg={4} md={4}></Col>
 
