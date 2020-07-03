@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Row, Col, Container } from 'react-bootstrap';
 import './../App.css';
 // import { sendToActionFORRetrive } from '../Redux/Action/action';
-import AddTransaction from './addTransaction';
+// import AddTransaction from './addTransaction';
 export class Welcom extends Component {
 
   // componentWillMount() {
