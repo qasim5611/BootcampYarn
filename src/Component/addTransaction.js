@@ -19,7 +19,7 @@ class addTransaction extends Component {
 
     <div className="form-control">
 <label htmlFor='transactionamount'>
-    Description
+    Transaction Amount
 </label>
 
 <input type="number"  id="transactionamount" placeholder="Enter Transaction Amount" />
