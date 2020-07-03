@@ -7,7 +7,7 @@ import './App.css';
 import { Header } from './Component/Header';
 import { Balance } from './Component/Balance';
 import { AccountSummary } from './Component/AccountSummary';
-import { TransactionHistory } from './Component/TransactionHistory';
+import { TransactionHistory } from './Component/transactionHistory';
 import { AddTransaction } from './Component/AddTransaction';
 
 // Import Provider
