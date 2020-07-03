@@ -60,6 +60,38 @@ export class Welcom extends Component {
 
 </Row>
 
+
+
+<Row>
+ <Col>
+ <h3>Add New Transaction</h3>
+
+<form>
+    <div className="form-control">
+<label htmlFor='description'>
+    Description
+</label>
+
+<input type="text"  id="description" placeholder="Detail of transaction" />
+    </div>
+
+
+
+    <div className="form-control">
+<label htmlFor='transactionamount'>
+    Transaction Amount
+</label>
+
+<input type="number"  id="transactionamount" placeholder="Enter Transaction Amount" />
+    </div>
+
+
+<button className="btn">Add Transaction</button>
+</form>
+ </Col>
+
+</Row>
+
    </Col>
     <Col xs={4} sm={4} lg={4} md={4}></Col>
 
@@ -71,7 +103,7 @@ export class Welcom extends Component {
 {/*............................................End of Top Right Corner*/}
 </Row>
 
-<AddTransaction/>
+
 </Container>
 
       </div>
