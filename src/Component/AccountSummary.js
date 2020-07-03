@@ -3,9 +3,10 @@ import React, { useContext } from 'react'
 // Import the Global State
 import { GlobalContext } from '../context/GlobalState';
 
-export const AccountSummary = () => {
-
-    const { transactions } = useContext(GlobalContext);
+class AccountSummary extends Component {
+    
+    render() {
+        const { transactions } = useContext(GlobalContext);
 
     const transactionAmounts = transactions.map(transaction => transaction.transactionAmount);
 
@@ -18,9 +19,8 @@ export const AccountSummary = () => {
         .filter(transaction => transaction < 0)
         .reduce((acc, transaction) => (acc += transaction), 0)
         ).toFixed(2);
-
-    return (
-        <div className="inc-exp-container">
+        return (
+            <div className="inc-exp-container">
             <div>
                 <h4>Income</h4>
                 <p className="money plus">
@@ -35,5 +35,8 @@ export const AccountSummary = () => {
             </div>
             
         </div>
-    )
+        );
+    }
 }
+
+export default AccountSummary;
