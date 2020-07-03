@@ -1,24 +1,27 @@
-import React, { Component } from 'react';
-import './../App.css';
-class transactionHistory extends Component {
-    render() {
-        return (
-            <div>
-               <h3>Transaction History</h3>
-<ul>
-    <li className="plus" style={{borderRight: '10px green solid'}}>
-       <center> Project 1 income
-        <span>$ 1000</span> </center>
-    </li>
-    <li className="minus" style={{borderRight: '10px red solid'}}>
-        <center> Project 1 salaries
-        <span>$ 1000</span> </center>
-    </li>
-</ul>
+import React, { useContext } from 'react';
 
-            </div>
-        );
-    }
+// Import Transaction Component
+import { Transaction } from './Transaction';
+
+// Import the Global State
+import { GlobalContext } from '../context/GlobalState';
+
+export const TransactionHistory = () => {
+
+    const { transactions } = useContext(GlobalContext);
+
+    return (
+        <div>
+            <h3>
+                Transaction History
+            </h3>
+            <ul className="list">
+                {transactions.map(transaction => 
+                    (
+                    <Transaction key={transaction.id} transaction={transaction} />
+                    )
+                )}
+            </ul>
+        </div>
+    )
 }
-
-export default transactionHistory;
