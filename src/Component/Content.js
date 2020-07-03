@@ -68,21 +68,21 @@ export class Welcom extends Component {
 
 <form>
     <div className="form-control">
-<label htmlFor='description'>
+<label>
     Description
 </label>
 
-<input type="text"  id="description" placeholder="Detail of transaction" />
+<input type="text"  id="" placeholder="Detail of transaction" />
     </div>
 
 
 
     <div className="form-control">
-<label htmlFor='transactionamount'>
+<label >
     Transaction Amount
 </label>
 
-<input type="number"  id="transactionamount" placeholder="Enter Transaction Amount" />
+<input type="number"  id="" placeholder="Enter Transaction Amount" />
     </div>
 
 
