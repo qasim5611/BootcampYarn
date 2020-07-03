@@ -6,11 +6,11 @@ import './App.css';
 // Import Components
 import { Header } from './Component/Header';
 import { Balance } from './Component/Balance';
-import { AccountSummary } from './Component/accountSummary';
-import { TransactionHistory } from './Component/transactionHistory';
-import { AddTransaction } from './Component/addTransaction';
+import { AccountSummary } from './Component/AccountSummary';
+import { TransactionHistory } from './Component/TransactionHistory';
+import { AddTransaction } from './Component/AddTransaction';
 
-// Import Provider
+// Import Providers
 import { GlobalProvider } from './context/GlobalState';
 
 function App() {
