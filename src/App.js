@@ -7,8 +7,8 @@ import './App.css';
 import { Header } from './Component/Header';
 import { Balance } from './Component/Balance';
 import { AccountSummary } from './Component/AccountSummary';
-import { TransactionHistory } from './Component/TransactionHistory';
-import { AddTransaction } from './Component/AddTransaction';
+import { TransactionHistory } from './Component/transactionHistory';
+import { AddTransaction } from './Component/addTransaction';
 
 // Import Providers
 import { GlobalProvider } from './context/GlobalState';
